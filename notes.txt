@@ -1,0 +1,16 @@
+in cpp , by default everything is passed by value , ie a deep copy is passed.
+
+the range of int (or other dtypes) varies depending on the system architechture (16bit , 32bit , 64bit archs)
+
+use dtypes with fixed memory allocation ex - int16_t , int32_t , int64_t etc to avoid runtime errors
+
+in cpp char is the smallest addressable unit of memory
+char => 1 byte is allocated. now u can use this 1 byte to store ANYTHING - numbers , character , raw bytes etc , as long as they fir in 1 byte.
+ranges of signed char : -128 - 127
+          unsigned char : 0 - 255
+
+(*a).attribute is same as a->attribute where a is an address 
+
+this info is sent in the headers in the tcp request
+big indian : msb to lsb
+little indian : lsb to msb
